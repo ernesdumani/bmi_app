@@ -14,7 +14,9 @@ print(sales_series['Grapes'])
 total_sales = sales_series.sum()
 print(total_sales)
 
+
 #Reading and Writing Data
+
 
 #Read data from a CSV File
 df = pd.read_csv('your_dataset.csv')

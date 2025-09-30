@@ -32,6 +32,7 @@ print(average)
 sum_columns = np.sum(arr_2d, axis=0)
 print(sum_columns)
 
+
 sum_rows = np.sum(arr_2d, axis=1)
 print(sum_rows)
 
