@@ -9,6 +9,7 @@ print(df.info())
 
 numeric_iq_data_loc = df.select_dtypes(include=['number'])
 
+
 sns.heatmap(numeric_iq_data_loc.corr(), annot=True, cmap="coolwarm", fmt=".2f")
 plt.tight_layout()
 plt.show()

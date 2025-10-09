@@ -2,7 +2,9 @@ import plotly.express as px
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 df = pd.read_csv("avgIQpercountry.csv")
+
 
 df['Population - 2023'] = df['Population - 2023'].str.replace(',', '').astype(float)
 

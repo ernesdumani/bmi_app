@@ -12,3 +12,4 @@ plt.title('Histogram of Average IQ')
 plt.xlabel('Average IQ')
 plt.ylabel('Frequency')
 plt.show()
+

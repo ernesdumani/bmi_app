@@ -5,6 +5,7 @@ df = pd.read_csv("avgIQpercountry.csv")
 
 nobel_prizes_per_country = df.groupby('Continent')['Nobel Prices'].sum()
 
+
 no_af_continents = nobel_prizes_per_country.count()
 
 print(no_af_continents)
